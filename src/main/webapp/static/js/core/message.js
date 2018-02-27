@@ -1,0 +1,10 @@
+$(function(){
+	$('#messageOparator>i').click(function(){
+		$('#messageInit').hide();
+		$('#messageMain').show();
+	});
+	$('#oparatorDown>i').click(function(){
+		$('#messageMain').hide();
+		$('#messageInit').show();
+	});
+});

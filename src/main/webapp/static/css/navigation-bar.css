@@ -1,0 +1,63 @@
+	.ul-bar{
+	  height: 30px;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    width: 10000px;
+	    padding: 0px;
+	    margin: 0px 30px;
+	    line-height: 30px;
+	    left: 0px;
+	  }
+  	.ul-bar .li-item{
+		width:130px;
+	    list-style: none;
+    	float: left;
+	}
+	.title-tag{
+		border-right: solid 1px #ccc;
+		display:block;
+		padding: 0 8px;
+		position: relative;
+		
+	}
+	.title-tag:hover{
+		cursor: pointer;
+		background: #dedede;
+	}
+	.bar-item-title{
+		overflow: hidden;
+		text-overflow:ellipsis;
+		white-space: nowrap;
+		display: block;
+    	margin-right: 20px;
+	}
+	.bar-item-closed{
+		background:url('../images/core/close.png');
+		position:absolute;
+		right: 0px;
+	    width: 32px;
+	    height: 32px;
+	    line-height: 30px;
+	    top: 0px;
+		
+	}
+	.bar-item-closed:hover{
+		cursor: pointer;
+	}
+	.tab-active{
+		background: #fff;
+	}
+	.tab-left{
+		width:30px;height:30px;background-color:#f90;position:absolute;left:0px; top:0px;background:url('../images/left.png') no-repeat 7px 7px;background-color:#dedede; border-right: solid 1px #ccc;"
+	}
+	.tab-right{
+		width:30px;height:30px;background-color:#555;position:absolute;right:0px;top: 0; background:url('../images/right.png') no-repeat 7px 7px;background-color:#dedede; border-left: solid 1px #ccc;
+	}
+	.tab-left:hover{
+		cursor: pointer;
+		background:url('../images/hover-left.png') no-repeat 7px 7px;
+	}
+	.tab-right:hover{
+		cursor: pointer;
+		background:url('../images/hover-right.png') no-repeat 7px 7px;
+	}
